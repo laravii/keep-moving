@@ -1,0 +1,44 @@
+.profileInfosModalContainer header strong {
+  font-family: Rajdhani;
+  font-weight: 600;
+  font-size: 3.5rem;
+  color: var(--blue);
+}
+.profileInfosModalContainer form fieldset {
+  margin: 1rem 0;
+  border-radius: var(--border-radius);
+}
+.profileInfosModalContainer form fieldset legend {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.profileInfosModalContainer form fieldset input {
+  width: 70%;
+  height: var(--inputAndButtonHeight);
+
+  border-radius: var(--border-radius);
+  border: none;
+
+  background: var(--gray-line);
+
+  padding: 2px;
+  margin: 1rem;
+
+  font-size: 1.5rem;
+}
+
+.profileInfosModalContainer form button {
+  height: var(--inputAndButtonHeight);
+  width: 5rem;
+
+  border-radius: var(--border-radius);
+  border: none;
+
+  background: var(--blue);
+  color: var(--white);
+
+  padding: 2px;
+  margin: 0.5rem;
+
+  font-size: 1.1rem;
+}
